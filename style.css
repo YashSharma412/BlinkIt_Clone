@@ -171,6 +171,10 @@ nav {
   overflow-x: scroll;
 }
 
+.cate-cards-container:hover .scroll-arrow{
+  display: flex;
+}
+
 .cate-cards-container::-webkit-scrollbar {
   display: none;
 }
@@ -330,7 +334,7 @@ nav {
 }
 
 .scroll-arrow {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
