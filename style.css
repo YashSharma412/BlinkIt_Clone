@@ -7,7 +7,7 @@
   background-color: #fffeff;
 }
 main {
-  width: 87%;
+  width: 96%;
   margin: auto;
 }
 
@@ -26,7 +26,6 @@ nav {
   border-right: 3px solid #f2f2f2;
 }
 .mobile-toggler {
-  /* width: 30px; */
   height: 30px;
   font-size: 22px;
   align-items: center;
@@ -130,8 +129,7 @@ nav {
 /* My-Categories section */
 
 .my-categories {
-  /* background-color: maroon; */
-  /* border: 2px solid black; */
+
   width: 97%;
   margin: auto;
 }
@@ -142,21 +140,19 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
 }
 
-/* Category rows */
 
 .Category-row {
   width: 97%;
   margin: auto;
   margin-top: 40px;
   position: relative;
-  /* border: 2px solid black; */
 }
 .Category-row h2 {
   color: rgb(28, 28, 28);
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .Category-row h5 {
   line-height: 32px;
@@ -184,7 +180,6 @@ nav {
   height: 280px;
   margin: 5px 0px;
   margin-left: 5px;
-  /* grid-column: span 6 / auto; */
   position: relative;
   background: rgb(255, 255, 255);
   border: 0.5px solid rgb(232, 232, 232);
@@ -232,7 +227,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100%; */
 }
 .wait-time > p {
   text-transform: uppercase;
@@ -362,9 +356,7 @@ nav {
 .scroll-left {
   left: -16px;
 }
-/* .scroll-right{
-  right: 50px;
-} */
+
 
 footer {
   width: 100%;
@@ -382,14 +374,11 @@ footer {
   font-weight: 600;
   color: rgb(0, 0, 0);
   font-size: 18px;
-  /* margin: 24px 0px; */
 }
 
 .my-table td {
   text-transform: capitalize;
   font-size: 12px;
-  /* font-size: 18px; */
-  /* margin: 24px 0px; */
 }
 
 .table-2 > caption span {
